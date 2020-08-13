@@ -29,15 +29,16 @@ public class Book {
 	private String language;
 	private String category;
 	private int numberOfPages;
-	private String format;	//to be removed
+	private String format;	
 	private int isbn;
-	private double shippingWeight; 	//to be removed
+	private double shippingWeight;
 	private double listPrice;
 	private double ourPrice;
 	private boolean active=true;
 	
 	@Column(columnDefinition="text")
 	private String description;
+	
 	private int inStockNumber;
 	
 	@Transient
