@@ -17,11 +17,11 @@ public class ResourceController {
 	private BookService bookService;
 	
 	@PostMapping(value="/book/removeList")
-	public String removeList(
-			@RequestBody ArrayList<String> bookIdList, Model model
-			){
+	public String removeList(@RequestBody ArrayList<String> bookIdList, Model model)
+	{
 		
-		for (String id : bookIdList) {
+		for (String id : bookIdList) 
+		{
 			String bookId =id.substring(8);
 			bookService.removeOne(Long.parseLong(bookId));
 		}

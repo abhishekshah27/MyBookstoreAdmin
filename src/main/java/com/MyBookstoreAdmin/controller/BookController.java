@@ -102,7 +102,8 @@ public class BookController {
 	}
 	
 	@GetMapping("/bookList")
-	public String bookList(Model model) {
+	public String bookList(Model model) 
+	{
 		List<Book> bookList = bookService.findAll();
 		model.addAttribute("bookList", bookList);		
 		return "bookList";
@@ -110,9 +111,8 @@ public class BookController {
 	}
 	
 	@PostMapping(value="/remove")
-	public String remove(
-			@ModelAttribute("id") String id, Model model
-			) {
+	public String remove(@ModelAttribute("id") String id, Model model)
+	{
 		bookService.removeOne(Long.parseLong(id.substring(8)));
 		List<Book> bookList = bookService.findAll();
 		model.addAttribute("bookList", bookList);

@@ -1,3 +1,4 @@
+
 package com.MyBookstoreAdmin.model;
 
 import javax.persistence.Entity;
