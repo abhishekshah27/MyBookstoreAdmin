@@ -26,7 +26,7 @@ VALUES(5, true,'Stephen Hawking', 'Fiction', 'Seven lectures by the brilliant th
 
 INSERT IGNORE INTO a.book
 (id, active, author, category, description, format, in_stock_number, isbn, `language`, list_price, number_of_pages, our_price, publication_date, publisher, shipping_weight, title)
-VALUES(6, true,'Narasimha Karumanchi', 'Engineering', 'A handy guide of sorts for any computer Science professional, data structures and algorithms made easy: data structures and algorithmic puzzles is a solution Bank for various complex problems related to data structures and algorithms. It can be used as a reference manual by those readers in the computer Science industry. This book serves as guide to prepare for interviews, exams, and campus work. In short, this book offers solutions to various complex data structures and algorithmic problems.', 'paperback', 100, 8193245, 'english', 550.00, 418, 399.00, '2016-01-01', 'Careermonk Publications', 0.30, 'Data Structures and Algorithms Made Easy');
+VALUES(6, true,'Narasimha Karumanchi', 'Programming', 'A handy guide of sorts for any computer Science professional, data structures and algorithms made easy: data structures and algorithmic puzzles is a solution Bank for various complex problems related to data structures and algorithms. It can be used as a reference manual by those readers in the computer Science industry. This book serves as guide to prepare for interviews, exams, and campus work. In short, this book offers solutions to various complex data structures and algorithmic problems.', 'paperback', 100, 8193245, 'english', 550.00, 418, 399.00, '2016-01-01', 'Careermonk Publications', 0.30, 'Data Structures and Algorithms Made Easy');
 
 
 INSERT IGNORE INTO a.book
@@ -37,7 +37,7 @@ Time Management is a concept of planning and exercising some mindful control on 
 
 INSERT IGNORE INTO a.book
 (id, active, author, category, description, format, in_stock_number, isbn, `language`, list_price, number_of_pages, our_price, publication_date, publisher, shipping_weight, title)
-VALUES(8, true,'Brian W. Kernighan/Dennis Ritchie', 'Engineering', 'The book enumerates the concepts related to C Programming language, as prescribed by ANSI standard. The book elaborates on the basics of procedure oriented programming and the fundamentals of writing C codes. It goes on to cover aspects like functions and loops, learning which will help novice programmers to code elementary level codes properly.', 'hardcover', 36, 2549449, 'english', 440.00, 288, 340.00, '2015-02-01', 'Pearson Education India', 0.41, 'The C Programming Language');
+VALUES(8, true,'Brian W. Kernighan/Dennis Ritchie', 'Programming', 'The book enumerates the concepts related to C Programming language, as prescribed by ANSI standard. The book elaborates on the basics of procedure oriented programming and the fundamentals of writing C codes. It goes on to cover aspects like functions and loops, learning which will help novice programmers to code elementary level codes properly.', 'hardcover', 36, 2549449, 'english', 440.00, 288, 340.00, '2015-02-01', 'Pearson Education India', 0.41, 'The C Programming Language');
 
 
 INSERT IGNORE INTO a.book
@@ -50,4 +50,6 @@ INSERT IGNORE INTO a.book
 VALUES(10, true,'R S Aggarwal', 'Engineering', 'Ever since its release in 1989, Quantitative Aptitude has come to acquire a special place of respect and acceptance among students and aspirants appearing for a wide gamut of competitive exams. Now, more than a quarter of a century later, with the ever changing environment of examinations, the book too reinvents itself while being resolute to its core concept of providing the best content with easily understandable solutions.', 'hardcover', 45, 93525340, 'english', 749.00, 960, 549.00, '2017-10-12', 'S Chand Publishing', 1.5, 'Quantitative Aptitude for Competitive Examinations');
 
 
-
+INSERT IGNORE INTO a.book
+(id, active, author, category, description, format, in_stock_number, isbn, `language`, list_price, number_of_pages, our_price, publication_date, publisher, shipping_weight, title)
+VALUES(11, true,'R S Aggarwal', 'Engineering', 'Ever since its release in 1989, Quantitative Aptitude has come to acquire a special place of respect and acceptance among students and aspirants appearing for a wide gamut of competitive exams. Now, more than a quarter of a century later, with the ever changing environment of examinations, the book too reinvents itself while being resolute to its core concept of providing the best content with easily understandable solutions.', 'hardcover', 45, 93525340, 'english', 749.00, 960, 549.00, '2017-10-12', 'S Chand Publishing', 1.5, 'Quantitative Aptitude for Competitive Examinations');
