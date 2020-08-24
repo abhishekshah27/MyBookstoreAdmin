@@ -20,9 +20,6 @@ public class MyBookstoreAdminApplication implements CommandLineRunner{
 	@Autowired
 	private UserService userService;
 	
-//	@Autowired
-//	private BookService bookService;
-	
 	public static void main(String[] args) {
 		SpringApplication.run(MyBookstoreAdminApplication.class, args);
 	}
@@ -57,26 +54,6 @@ public class MyBookstoreAdminApplication implements CommandLineRunner{
 //		b1.setDescription("The greatest investment advisor of the twentieth century, Benjamin Graham taught and inspired people worldwide. Graham's philosophy of “value investing”—which shields investors from substantial error and teaches them to develop long-term strategies—has made The Intelligent Investor the stock market bible ever since its original publication in 1949.Vital and indispensable, The Intelligent Investor is the most important book you will ever read on how to reach your financial goals."); 
 //		b1.setInStockNumber(9);
 //		bookService.save(b1);
-//		
-//
-//		Book b2=new Book();
-//		b2.setTitle("Java: The Complete Reference, Ninth Edition");
-//		b2.setAuthor("Herbert Schildt");
-//		b2.setPublisher("McGraw Hill Education");
-//		b2.setPublicationDate("2014-06-25");
-//		b2.setLanguage("english");
-//		b2.setCategory("Programming");
-//		b2.setNumberOfPages(1312);
-//		b2.setFormat("hardcover");
-//		b2.setIsbn(832912);
-//		b2.setShippingWeight(0.90);
-//		b2.setListPrice(900.00);
-//		b2.setOurPrice(750.00);
-//		b2.setActive(true);
-//		b2.setDescription("Java - The Complete Reference is a comprehensive book for undergraduate students of Computer Science Engineering. The book comprises of chapters on the Java language, the Java library, GUI programming with Swing, GUI programming with JavaFX and applying Java. In addition, the book provides access to an online source which has all the examples and projects in the book available for download. This book is essential for computer science engineers preparing for various competitive examinations like GATE."); 
-//		b2.setInStockNumber(25);
-//		bookService.save(b2);
-
 		
 	}
 }
