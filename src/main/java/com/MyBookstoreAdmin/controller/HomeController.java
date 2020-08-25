@@ -11,11 +11,6 @@ public class HomeController {
 		return "redirect:/book/bookList";
 	}
 	
-	@GetMapping("/home")
-	public String home(){
-		return "home";
-	}
-	
 	@GetMapping("/login")
 	public String login(){
 		return "login";
