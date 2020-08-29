@@ -34,9 +34,11 @@ public class Book {
 	private String language;
 	private String category;
 	private int numberOfPages;
-	private String format;	
+	private String format;
+	
 	@Column(unique = true)
-	private int isbn;
+	private String isbn;
+	
 	private double shippingWeight;
 	private double listPrice;
 	private double ourPrice;
