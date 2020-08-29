@@ -13,5 +13,4 @@ public interface BookService {
 	
 	Optional<Book> findOne(Long id);
 	
-	void removeOne(Long id);
 }
